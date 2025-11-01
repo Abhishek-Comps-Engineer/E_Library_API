@@ -1,44 +1,14 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.pyo
-*.pyd
-*.pyc
-
-# Virtual environment
 venv/
-ENV/
-env/
-.venv/
-
-# Environment variables
 .env
-.env.*
 
-# IDEs
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# Logs
-*.log
-*.sqlite3
+e_library_backend\app\static\covers
+e_library_backend\app\static\pdfs
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# FastAPI / Static files
-static/pdfs/
-static/covers/
-
-# Pytest
-.cache/
-.pytest_cache/
-htmlcov/
-
-# Migrations / Packages
 migrations/
 *.egg-info/

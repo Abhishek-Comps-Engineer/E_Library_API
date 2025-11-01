@@ -24,3 +24,8 @@ app.include_router(auth.router, prefix="/auth", tags=["Auth"])
 app.include_router(author.router, prefix="/author", tags=["Author"])
 app.include_router(admin.router, prefix="/admin", tags=["Admin"])
 app.include_router(books.router, prefix="/books", tags=["Books"])
+
+
+@app.get("/")
+def read_root():
+   return {"message": "Welcome to the E-Library API"}
