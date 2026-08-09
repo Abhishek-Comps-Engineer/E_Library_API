@@ -13,10 +13,13 @@ This is a **FastAPI backend** for an E-Library system. It supports **JWT authent
 - FastAPI endpoints with Pydantic schemas
 - Environment-based configuration
 
+## Architecture 
+<img width="1536" height="1024" alt="Architecture_E_Library_backend" src="https://github.com/user-attachments/assets/0c03dd41-c621-4d8d-9f68-2bb238479c86" />
+
 ## Setup
 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/<your-username>/e-library-backend.git
+git clone https://github.com/abhisheksharma-swe/e-library-backend.git
 cd e-library-backend
